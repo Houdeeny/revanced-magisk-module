@@ -204,8 +204,8 @@ if [ -z "$(ls -A1 ${BUILD_DIR})" ]; then
     abort "All builds failed."
 fi
 
-log "Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store."
-log "\n[revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)"
+log "\nUse [zygisk-detach](https://github.com/j-hc/zygisk-detach) module to detach YouTube and YT Music from Play Store."
+log "\n[j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module) | [Houdeeny/revanced-magisk-module](https://github.com/Houdeeny/revanced-magisk-module)"
 log "\nChangelog:"
 log "$(cat $TEMP_DIR/*-rv/changelog.md)"
 
